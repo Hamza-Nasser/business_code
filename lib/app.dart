@@ -83,7 +83,6 @@ class _MainAppState extends State<MainApp> {
               locale: state.currentLocale,
               debugShowCheckedModeBanner: false,
               home: const StarterScreen(),
-              // home: const SignUpScreen(),
             ),
           );
         },

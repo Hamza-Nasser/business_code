@@ -4,7 +4,7 @@ abstract class CardManagementEvent extends Equatable {
   const CardManagementEvent();
 
   @override
-  List<Object> get props => [];
+  List<Object?> get props => [];
 }
 
 final class FetchCards extends CardManagementEvent {
@@ -19,10 +19,10 @@ final class FetchCards extends CardManagementEvent {
 final class GenerateCardFromImage extends CardManagementEvent {
   const GenerateCardFromImage(this.imageFile);
 
-  final File imageFile;
+  final File? imageFile;
 
   @override
-  List<Object> get props => [imageFile];
+  List<Object?> get props => [imageFile];
 }
 
 final class SaveNewCard extends CardManagementEvent {

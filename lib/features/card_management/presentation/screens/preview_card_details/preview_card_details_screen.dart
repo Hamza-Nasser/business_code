@@ -20,8 +20,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class PreviewCardDetailsScreen extends StatelessScreen {
-  const PreviewCardDetailsScreen({super.key, required this.image});
-  final File image;
+  const PreviewCardDetailsScreen({super.key,  this.image});
+  final File? image;
 
   @override
   ScreenRoute get screenRoute => ScreenRoute.previewCardDetails;

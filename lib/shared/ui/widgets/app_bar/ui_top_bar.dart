@@ -21,6 +21,7 @@ class UiTopBar extends StatelessWidget implements PreferredSizeWidget {
     const color = Colors.white;
     return AppBar(
       title: title,
+      centerTitle: false,
       backgroundColor: color,
       surfaceTintColor: color,
       elevation: elevation,
