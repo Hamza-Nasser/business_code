@@ -1,0 +1,73 @@
+name: business_code
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  vector_graphics: ^1.1.19
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+  get_it: ^8.2.0
+  injectable: ^2.5.1
+  shared_preferences: ^2.5.3
+  dio: ^5.9.0
+  flutter_secure_storage: ^9.2.4
+  internet_connection_checker_plus: ^2.8.0
+  formz: ^0.8.0
+  flutter_staggered_animations: ^1.1.1
+  json_annotation: ^4.9.0
+  bloc: ^9.0.1
+  app_links: ^6.4.1
+  camera: ^0.11.2
+  quick_actions: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  vector_graphics_compiler: ^1.1.19
+  injectable_generator: ^2.8.1
+  build_runner: ^2.7.1
+  json_serializable: ^6.11.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - path: assets/svg/
+      transformers:
+        - package: vector_graphics_compiler
+
+  fonts:
+    - family: cairo
+      fonts:
+        - asset: assets/fonts/cairo/Cairo-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/cairo/Cairo-SemiBold.ttf
+          weight: 600
+          style: normal
+        - asset: assets/fonts/cairo/Cairo-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/cairo/Cairo-Regular.ttf
+          weight: 400
+    - family: quicksand
+      fonts:
+        - asset: assets/fonts/quicksand/Quicksand-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/quicksand/Quicksand-SemiBold.ttf
+          weight: 600
+          style: normal
+        - asset: assets/fonts/quicksand/Quicksand-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/quicksand/Quicksand-Regular.ttf
+          weight: 400
+flutter_intl:
+  enabled: true

@@ -1,0 +1,15 @@
+enum ScreenRoute {
+  starter,
+  onboarding,
+  signIn,
+  signUp,
+  forgotPasswordClaimId,
+  verifyIdentifier,
+  resetPassword,
+  appShell,
+  activeProfileDetails,
+  accountInformation,
+  listCards,
+  scanNewCard,
+  previewCardDetails,
+}

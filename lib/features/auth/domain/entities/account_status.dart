@@ -1,0 +1,1 @@
+enum AccountStatus { active, inComplete }
